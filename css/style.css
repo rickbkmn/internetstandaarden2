@@ -1,0 +1,210 @@
+
+
+body {
+    margin: 0;
+    width: 100vw;
+    background-color: black;
+}
+
+header nav ul {
+    list-style: none;
+    margin-right: 1em;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+header nav {
+    background-color: black;
+    height: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 0px 10px white;
+    position: relative;
+}
+
+.logolinks {
+    height: auto;
+    width: 2em;
+    margin-left: 1em;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:hover {
+    text-decoration: underline;
+    transition: 200ms;
+}
+
+.bannerhome {
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+    text-align: center;
+    margin-top: -50px;
+    margin-bottom: -50px;
+    color: black;
+}
+
+
+section {
+    align-items: center;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 0;
+    margin-right: 20em;
+    margin-left: 20em;
+  }
+
+  .shirt:hover {
+    transform: scale(110%);
+    transition: 300ms;
+    background-color: rgba(251, 251, 251, 0.824);
+   }
+  
+  .shirt {
+    font-size: 1em;
+    background-color: white;
+    border-radius: 10px;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
+    
+  }
+
+  .quote {
+    width: 100%;
+    font-size: 5em;
+    color: white;
+    position: absolute;
+    text-align: center;
+    margin-top: -440px;
+    text-shadow: 10px 10px 20px black;
+  }
+
+  .quote-team {
+    width: 100%;
+    font-size: 5em;
+    color: white;
+    position: absolute;
+    margin-top: 190px;
+    margin-left: -100px;
+    text-align: center;
+    text-shadow: 10px 10px 20px black;
+  }
+
+  .quote-news {
+    width: 100%;
+    font-size: 5em;
+    color: white;
+    position: absolute;
+    margin-top: 190px;
+    margin-left: -100px;
+    text-align: center;
+    text-shadow: 10px 10px 20px black;
+  }
+
+  .galatasarayshirts {
+    width: 100%;
+    margin-top: 0;
+  }
+
+  h2, h3 {
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  footer {
+    background-color: black;
+    height: 8em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 0px 10px white;
+    margin-top: 7%;
+  }
+
+  footer h3 {
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  main h4 {
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -5%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .teamfoto {
+    margin-top: 2em;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 3em;
+    border-radius: 15px;
+  }
+
+  .opstelling {
+    width: 70%;
+    float: left;
+  }
+
+  .opstelling-lijst {
+    width: 60%;
+  }
+
+  .team {
+    padding-left: 100px;
+    padding-right: 100px;
+    color: white;
+    padding-top: 30px;
+  }
+
+main ul{
+  list-style: none;
+  text-align: center;
+  margin-right: 25%;
+}
+
+main ul li {
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+main ul h2{
+  font-size: 2em;
+}
+
+  .opstelling-container {
+    display: flex;
+    margin-bottom: -40px;
+  }
+
+  .news {
+    padding-left: 100px;
+    padding-right: 100px;
+    color: white;
+    padding-top: 30px;
+  }
